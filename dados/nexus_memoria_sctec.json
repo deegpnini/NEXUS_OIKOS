@@ -1,0 +1,110 @@
+{
+  "data_atualizacao": "2026-04-12T01:59:50.940580",
+  "conhecimento": {
+    "python": {
+      "variaveis": [
+        "int",
+        "float",
+        "str",
+        "bool",
+        "list",
+        "dict"
+      ],
+      "estruturas_controle": [
+        "if/else",
+        "for",
+        "while",
+        "try/except"
+      ],
+      "funcoes": "def nome(parametros): return",
+      "list_comprehension": "[x**2 for x in range(10)]",
+      "lambda": "lambda x: x * 2"
+    },
+    "pandas": {
+      "ler_csv": "pd.read_csv('arquivo.csv')",
+      "ver_dados": [
+        "df.head()",
+        "df.info()",
+        "df.describe()"
+      ],
+      "selecionar": [
+        "df['coluna']",
+        "df[df['idade'] > 18]"
+      ],
+      "limpeza": [
+        "df.dropna()",
+        "df.fillna(0)",
+        "df.drop_duplicates()"
+      ],
+      "groupby": "df.groupby('categoria').mean()",
+      "merge": "pd.merge(df1, df2, on='chave')"
+    },
+    "visualizacao": {
+      "matplotlib": [
+        "plt.plot()",
+        "plt.bar()",
+        "plt.hist()",
+        "plt.savefig()"
+      ],
+      "seaborn": [
+        "sns.barplot()",
+        "sns.heatmap()",
+        "sns.scatterplot()"
+      ],
+      "estilos": "sns.set_style('darkgrid')"
+    },
+    "projeto_titanic": {
+      "insights": [
+        "Classe 1: 63% sobreviveu",
+        "Classe 3: 24% sobreviveu",
+        "Mulheres: 74% sobreviveu",
+        "Homens: 19% sobreviveu",
+        "Mulheres 1ª classe: 97% sobreviveu",
+        "Homens 3ª classe: 14% sobreviveu"
+      ],
+      "correlacoes": {
+        "Pclass_Survived": -0.34,
+        "Sex_Survived": 0.54,
+        "Fare_Pclass": -0.55
+      }
+    },
+    "equacao_dc": {
+      "formula": "D_c = (A × σ / Δt) × Γ × (1 - e^(-k × P))",
+      "variaveis": {
+        "A": "Ação real (views, engajamento)",
+        "σ": "Credibilidade (taxa de like)",
+        "Δt": "Latência (tempo de resposta)",
+        "Γ": "Canais de distribuição",
+        "k": "Viralidade",
+        "P": "Exposição"
+      },
+      "interpretacao": "D_c alto = dominância perceptiva"
+    },
+    "nexus_oikos": {
+      "versao": "v8.2",
+      "modulos": [
+        "ANALYTICUS",
+        "VEREDICTUM",
+        "GUARDIAN",
+        "CATALYST",
+        "TRINITYCORE"
+      ],
+      "filosofia": "Tecnologia com alma. Dados com propósito. Código com coração.",
+      "mantra": "O fluxo segue. O primeiro segundo é território."
+    },
+    "comandos_uteis": {
+      "pandas": [
+        "df.head() - primeiras linhas",
+        "df.info() - info colunas",
+        "df.isnull().sum() - ver nulos",
+        "df.groupby('col').agg() - agregações"
+      ],
+      "python": [
+        "len(lista) - tamanho",
+        "range(n) - sequência",
+        "enumerate() - índice e valor",
+        "zip() - combinar listas"
+      ]
+    }
+  }
+}
