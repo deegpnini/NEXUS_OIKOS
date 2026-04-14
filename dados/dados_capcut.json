@@ -1,0 +1,62 @@
+{
+  "data_registro": "2026-04-13T16:04:04.103838",
+  "fonte": "Capcut Analytics",
+  "periodo": "Abril 2026",
+  "metricas_gerais": {
+    "views_totais": 67875,
+    "views_unicas": 54574,
+    "crescimento_views": "+767%",
+    "crescimento_views_unicas": "+832%",
+    "novos_seguidores": 365,
+    "crescimento_seguidores": "+135%",
+    "visitas_perfil": 289,
+    "crescimento_visitas": "+236%"
+  },
+  "engajamento": {
+    "likes_rate": 4.09,
+    "likes_rate_anterior": 6.64,
+    "comments_rate": 0.32,
+    "comments_rate_anterior": 0.54,
+    "shares_rate": "+14%",
+    "total_compartilhamentos": 110,
+    "crescimento_compartilhamentos": "+900%"
+  },
+  "top_videos": [
+    {
+      "titulo": "A reentrada da cápsula Orion",
+      "views": 28924,
+      "likes": 780,
+      "comentarios": 157,
+      "status": "EXCELENTE"
+    },
+    {
+      "titulo": "AO VIVO AGORA: Artemis II",
+      "views": 12979,
+      "likes": 115,
+      "comentarios": 1,
+      "status": "ALTO IMPACTO"
+    },
+    {
+      "titulo": "Artemis II está voltando",
+      "views": 1295,
+      "likes": 36,
+      "comentarios": 0,
+      "status": "BOA RETENÇÃO"
+    }
+  ],
+  "insights_capcut": [
+    "Alcance e volume de visualizações aumentaram drasticamente",
+    "Views totais saltaram 767% (67.875)",
+    "Views únicos subiram 832% (54.574)",
+    "Novos seguidores: +365 (+135%)",
+    "Shares rate subiu 14%, total de compartilhamentos +900%",
+    "Likes rate caiu de 6.64% para 4.09%",
+    "Comments rate caiu de 0.54% para 0.32%"
+  ],
+  "recomendacoes": [
+    "Focar em CTAs claros para incentivar comentários",
+    "Publicar nos horários de pico: 11h-14h e 18h-21h",
+    "Analisar temas dos vídeos mais compartilhados",
+    "Repetir formatos de alta viralização"
+  ]
+}

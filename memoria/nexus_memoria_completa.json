@@ -1,0 +1,52 @@
+{
+  "identidade": {
+    "nome": "NEXUS OIKOS SYSTEM",
+    "versao": "10.0",
+    "maestro": "Helyton Renato Gonçalves Ronchi",
+    "codinome": "Hebron",
+    "localizacao": "Torre Hebron - Criciúma/SC",
+    "filosofia": "Tecnologia com alma, dados com propósito, código com coração",
+    "mantra": "O fluxo segue. O primeiro segundo é território."
+  },
+  "sctec_jornada": {
+    "concluidos": [
+      "IA na Prática: Fundamentos (20h) - Nota 10",
+      "IA para Marketing (2h)",
+      "IA para Vendas (2h)",
+      "IA para Educação (2h)",
+      "IA para Recursos Humanos (2h)",
+      "Introdução ao Data Science (20h)"
+    ],
+    "confirmados": [
+      "IA na Prática: Aplicabilidades Éticas (8h)",
+      "IA na Prática: Criação de Prompts (15h)",
+      "Análise de Dados com Python (300h)"
+    ],
+    "trilhas_rapidas": {
+      "software": "13-17/04/2026",
+      "dados": "22-29/04/2026",
+      "ia": "04-08/05/2026"
+    }
+  },
+  "agentes_trinity": {
+    "ANALYTICUS": "🧠 Dados puros e análise",
+    "VEREDICTUM": "⚖️ Julgamento estratégico",
+    "GUARDIAN": "🛡️ Proteção e memória",
+    "CATALYST": "🕊️ Alma e propósito",
+    "ATTACK": "⚔️ Ação e execução",
+    "AURA": "✨ Interface e conexão",
+    "TRINITYCORE": "🏛️ Orquestração central"
+  },
+  "metricas_tiktok": {
+    "views_28dias": 67875,
+    "crescimento_views": "+767%",
+    "novos_seguidores": 365,
+    "top_video": "A reentrada da cápsula Orion - 28.924 views"
+  },
+  "presenca_digital": {
+    "tiktok": "@trygemini",
+    "instagram": "@hebronnexus",
+    "github": "deegpnini",
+    "youtube": "@torrehebron"
+  }
+}
