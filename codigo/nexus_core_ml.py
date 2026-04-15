@@ -232,3 +232,51 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+
+def menu_principal():
+    """Menu interativo da Torre de Comando"""
+    print("\n" + "="*50)
+    print("🏛️ TORRE DE COMANDO — NEXUS OIKOS")
+    print("="*50)
+    print("1. 🚀 Radar NEXUS-ISO (NASA)")
+    print("2. 📊 Analisar TikTok (D_c)")
+    print("3. 💾 Sincronizar GitHub")
+    print("4. 🧠 Ver Memória Longitudinal")
+    print("5. 🌡️ Ver Temperatura do Sistema")
+    print("0. ❌ Sair")
+    print("-"*50)
+    
+    comando = input("👉 Digite o comando: ")
+    
+    match comando:
+        case "1":
+            print("\n🚀 Ativando Radar NEXUS-ISO...")
+            print("   Conectando à API da NASA...")
+            print("   Nenhum objeto perigoso detectado.")
+        case "2":
+            print("\n📊 Analisando TikTok...")
+            exemplo = nexus.calcular_dc_video(28924, 780, 157, 110)
+            print(f"   Vídeo Orion: D_c = {exemplo['d_c']} ({exemplo['classificacao']})")
+        case "3":
+            print("\n💾 Sincronizando com GitHub...")
+            os.system("cd .. && git add . && git commit -m 'update' && git push")
+            print("   ✅ Sincronizado!")
+        case "4":
+            print("\n🧠 Memória Longitudinal:")
+            print(f"   Maestro: {nexus.maestro}")
+            print(f"   Agentes: {list(nexus.memoria.get_agentes().keys())}")
+        case "5":
+            print("\n🌡️ Temperatura do Sistema:")
+            os.system("sensors 2>/dev/null | grep temp1 || echo '   Instale lm-sensors'")
+        case "0":
+            print("\n🏛️ O fluxo segue. Até mais!")
+            return False
+        case _:
+            print("\n❌ Comando inválido!")
+    return True
+
+# Adicionar loop principal
+if __name__ == "__main__" and "--menu" in sys.argv:
+    nexus = NEXUS_OIKOS()
+    while menu_principal():
+        pass

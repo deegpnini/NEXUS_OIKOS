@@ -1,0 +1,153 @@
+{
+  "data_atualizacao": "2026-04-15",
+  "periodo": "Últimos 28 dias",
+  
+  "metricas_crescimento": {
+    "visualizacoes_totais": {
+      "antes": 8647,
+      "depois": 84803,
+      "crescimento": "+880.7%"
+    },
+    "seguidores_liquidos": {
+      "antes": 155,
+      "depois": 458,
+      "crescimento": "+195.5%"
+    },
+    "visitas_perfil": {
+      "antes": 89,
+      "depois": 324,
+      "crescimento": "+264%"
+    },
+    "comentarios": {
+      "antes": 35,
+      "depois": 395,
+      "crescimento": "+1028.6%"
+    },
+    "publicacoes": {
+      "antes": 54,
+      "depois": 103,
+      "crescimento": "+90.7%"
+    },
+    "compartilhamentos": {
+      "antes": 12,
+      "depois": 136,
+      "crescimento": "+1033%"
+    }
+  },
+  
+  "alertas_criticos": {
+    "taxa_curtidas": {
+      "antes": 7.05,
+      "depois": 3.83,
+      "variacao": "-45.7%"
+    },
+    "retencao_media": {
+      "antes": "40-60%",
+      "depois": "20-25%",
+      "status": "🔴 CRÍTICO"
+    },
+    "ponto_abandono": {
+      "antes": "3-5 segundos",
+      "depois": "1 segundo",
+      "status": "🔴 EXTREMAMENTE CRÍTICO"
+    }
+  },
+  
+  "videos_destaque": [
+    {
+      "titulo": "A reentrada da cápsula Orion",
+      "views": 30095,
+      "likes": 817,
+      "comentarios": 173,
+      "status": "✅ SUCESSO"
+    },
+    {
+      "titulo": "AO VIVO AGORA: Artemis II",
+      "views": 13021,
+      "likes": 117,
+      "comentarios": 0,
+      "status": "✅ SUCESSO"
+    },
+    {
+      "titulo": "Artemis II está voltando da Lua",
+      "views": 1296,
+      "likes": 36,
+      "comentarios": 0,
+      "status": "⚠️ MÉDIO"
+    }
+  ],
+  
+  "diagnostico": {
+    "shadowban": "⚠️ POSSÍVEL",
+    "causa_provavel": "Spam/Bot - postagens em sequência rápida",
+    "retencao_3s": "🔴 CRÍTICA (abandono em 1s)",
+    "horario_pico": "✅ OK (18h-21h)",
+    "publico_alvo": "✅ OK (53% masculino, 25-34 anos)"
+  },
+  
+  "feedback_ias": [
+    {
+      "ia": "IA do TikTok",
+      "diagnostico": "Retenção baixa nos primeiros segundos",
+      "recomendacao": "Hook mais forte + CTA claro"
+    },
+    {
+      "ia": "Grok",
+      "diagnostico": "Shadowban não generalizado, mas possível restrição isolada",
+      "recomendacao": "Pausar postagens e resetar"
+    },
+    {
+      "ia": "Gemini",
+      "diagnostico": "Algoritmo prioriza conclusão e compartilhamentos",
+      "recomendacao": "Apostar em retenção total"
+    },
+    {
+      "ia": "Manus",
+      "diagnostico": "Comportamento de bot + queda de retenção",
+      "recomendacao": "Parar 48-72h + ocultar vídeos ruins"
+    }
+  ],
+  
+  "acoes_tomadas": [
+    "✅ Limpar cache do app",
+    "✅ Limpar cache do sistema",
+    "✅ Sair da conta",
+    "✅ Desinstalar o app",
+    "✅ Reinstalar (versão mais recente)",
+    "✅ Tornar privados vídeos de baixa performance",
+    "🔄 PAUSA TOTAL nas postagens (48-72h) - EM ANDAMENTO"
+  ],
+  
+  "plano_recuperacao": {
+    "fase_1_cool_down": {
+      "status": "EM ANDAMENTO",
+      "duracao": "48-72h",
+      "acoes": [
+        "❌ Nenhuma postagem",
+        "🔒 Vídeos ruins ocultos",
+        "🧹 Cache limpo"
+      ]
+    },
+    "fase_2_preparacao": {
+      "status": "PENDENTE",
+      "acoes": [
+        "Analisar hooks dos vídeos de sucesso",
+        "Estudar vídeos virais do nicho",
+        "Esboçar 1 vídeo CURTO (15-30s)"
+      ]
+    },
+    "fase_3_recomeco": {
+      "status": "PENDENTE",
+      "regras": [
+        "✅ 1 vídeo por dia (máximo)",
+        "⏱️ Espaçamento mínimo 4-6h entre posts",
+        "💬 Responder TODOS os comentários nos primeiros 30-60min",
+        "📊 Monitorar % For You Page"
+      ]
+    }
+  },
+  
+  "hook_aprovado": {
+    "texto": "A Lua tem bilhões de toneladas de água... e isso pode abastecer foguetes até Marte.\n\nSó que tem um problema: ninguém é dono disso.\n\nComenta: SABIA ou NÃO SABIA."
+  }
+}
